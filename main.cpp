@@ -6,8 +6,15 @@ public:
 		~A() {}
 };
 
+class B {
+public:
+	B() {}
+	~B() {}
+};
+
 int main()
 {
 	A a;
+	B b;
 	return 0;
 }
