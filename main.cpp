@@ -12,6 +12,8 @@ public:
 	~B() {}
 };
 
+void helloworld();
+
 int main()
 {
 	A a;
