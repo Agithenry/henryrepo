@@ -6,6 +6,11 @@ public:
 		~A() {}
 };
 
+void test()
+{
+	std::cout << "test()" << std::endl;
+}
+
 int main()
 {
 	A a;
