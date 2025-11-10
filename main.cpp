@@ -6,6 +6,12 @@ public:
 		~A() {}
 };
 
+
+void test()
+{
+	std::cout << "test()" << std::endl;
+}
+
 class B {
 public:
 	B() {}
